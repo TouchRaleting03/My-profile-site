@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="main-content">
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>If you’d like to discuss a project, collaboration, or job opportunity, feel free to reach out. You can also connect with me on my social media profiles.</p>
+            
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <h3>Connect with Me</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/thabo-raleting-054b64212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://x.com/touch032?t=xKuOFiuHPvQFdthOhM8Uvg&s=09" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/t_raleting/profilecard/?igsh=Nzh4eHN6bWZpN2dt" target="_blank">Instagram</a></li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Thabo Raleting. All Rights Reserved.
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
